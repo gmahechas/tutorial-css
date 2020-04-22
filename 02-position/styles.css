@@ -1,0 +1,24 @@
+.i1 {
+  width: 200px;
+  height: 200px;
+  background-color: red;
+}
+
+.i2 {
+  width: 200px;
+  height: 200px;
+  background-color: blue;
+  /* position: relative; relative position from its predecessor */
+  position: absolute; /* relative position from browser x:0, y:0 it doesn't move */
+  bottom: 2000px;
+  right: 40px;
+}
+
+.i3 {
+  width: 200px;
+  height: 200px;
+  background-color: green;
+  position: fixed; /* relative position from browser x:0, y:0 it move */
+  top: 100px;
+  left: 100px;
+}
